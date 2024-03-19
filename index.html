@@ -10,9 +10,14 @@
             margin: 5px;
             padding: 5px; 
         }
+        .wrapperH{
+            display: flex;
+
+        }
         .header {
-            display: inline;
+            display: inline-block;
             width: 50px;
+            min-width: 50px;
             height: 50px;
             background-color: lightblue;
         }
@@ -25,10 +30,14 @@
             width: 110px;
             background-color: lightgreen;
         }
+        .wrapper{
+            display: flex;
+
+        }
         .wrapperL{
             display: inline-block;
         }
-        .wrapper{
+        .wrapperС{
             display: inline-block;
 
         }
@@ -36,7 +45,7 @@
             display: inline-block;
 
         }
-.main{
+        .main{
             flex: auto;
         }
         .obj{
@@ -56,40 +65,43 @@
 </head>
 <body>
 
-<div class="header">icon</div>
-<div class="nav">
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-    <div class="btn">btn1</div>
-</div>
-<div class="wrapperL">
-    <div class="side"></div>
-    <div class="side"></div>
-</div>  
-<div class="wrapper">
-    <div class="main">
-        <div class="obj">obj</div>
-        <div class="obj">obj</div>
-        <div class="obj">obj</div>
-        <div class="obj">obj</div>
-        <div class="obj">obj</div>
-        <div class="obj">obj</div>
-        <div class="obj">obj</div>
+<div class="wrapperH">
+    <div class="header">icon</div>
+    <div class="nav">
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
+        <div class="btn">btn1</div>
     </div>
-</div>  
-<div class="wrapperR">
-    <div class="side"></div>
-    <div class="side"></div>
-    <div class="side"></div>
-</div>  
-    
+</div>
+<div class="wrapper">
+    <div class="wrapperL">
+        <div class="side"></div>
+        <div class="side"></div>
+    </div>  
+    <div class="wrapperС">
+        <div class="main">
+            <div class="obj">obj</div>
+            <div class="obj">obj</div>
+            <div class="obj">obj</div>
+            <div class="obj">obj</div>
+            <div class="obj">obj</div>
+            <div class="obj">obj</div>
+            <div class="obj">obj</div>
+        </div>
+    </div>  
+    <div class="wrapperR">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+    </div>  
+</div>    
 </body>
 </html>
